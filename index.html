@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Evolution of Music — นิทรรศการดนตรี</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Sarabun:wght@300;400;600;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fas fa-music"></i>
+        <span>EvoMusic</span>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#timeline" class="nav-link">Timeline</a></li>
+        <li><a href="#artists" class="nav-link">Artists</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO / HOME ===== -->
+    <section id="home" class="hero-section">
+      <div class="hero-bg">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="particles" id="particles"></div>
+      </div>
+      <div class="hero-content reveal">
+        <p class="hero-tagline"><i class="fas fa-compact-disc fa-spin"></i> นิทรรศการดนตรีเชิงสร้างสรรค์</p>
+        <h1 class="hero-title">
+          <span class="line1">THE EVOLUTION</span>
+          <span class="line2">OF MUSIC</span>
+        </h1>
+        <p class="hero-subtitle">
+          สำรวจการเดินทางของดนตรีตลอดหลายศตวรรษ<br />
+          จากเสียงกลองยุคดึกดำบรรพ์ สู่จักรวาลดิจิทัลที่ไม่มีขอบเขต
+        </p>
+        <div class="hero-cta">
+          <a href="#timeline" class="btn btn-primary">
+            <i class="fas fa-play"></i> เริ่มต้นการเดินทาง
+          </a>
+          <a href="#about" class="btn btn-ghost">
+            <i class="fas fa-info-circle"></i> เรียนรู้เพิ่มเติม
+          </a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>เลื่อนลง</span>
+        <i class="fas fa-chevron-down fa-bounce"></i>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fas fa-star"></i> เกี่ยวกับนิทรรศการ</span>
+          <h2 class="section-title">What Is This Exhibition?</h2>
+          <p class="section-desc">นิทรรศการออนไลน์ที่พาคุณย้อนเวลาและก้าวสู่อนาคตของดนตรีโลก</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <div class="card-icon"><i class="fas fa-globe"></i></div>
+            <h3>วัตถุประสงค์</h3>
+            <p>นำเสนอพัฒนาการของดนตรีในรูปแบบที่เข้าถึงง่าย สร้างแรงบันดาลใจ และให้ความรู้ควบคู่กันอย่างลงตัว</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="card-icon"><i class="fas fa-users"></i></div>
+            <h3>กลุ่มเป้าหมาย</h3>
+            <p>วัยรุ่นและคนรุ่นใหม่ที่หลงรักดนตรี นักศึกษา และผู้ที่ต้องการสำรวจรากฐานทางวัฒนธรรมดนตรีโลก</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3>แรงบันดาลใจ</h3>
+            <p>ดนตรีคือภาษาสากลที่ข้ามพรมแดนทุกชนิด นิทรรศการนี้สร้างขึ้นเพื่อเชื่อมมนุษย์ผ่านเสียงและจังหวะ</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="card-icon"><i class="fas fa-rocket"></i></div>
+            <h3>อนาคตของดนตรี</h3>
+            <p>ตั้งแต่ AI-generated music จนถึง Spatial Audio การปฏิวัติดนตรียังไม่หยุด และเราอยู่กลางกระแสนั้น</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TIMELINE ===== -->
+    <section id="timeline" class="section timeline-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fas fa-clock"></i> ประวัติศาสตร์ดนตรี</span>
+          <h2 class="section-title">Music Timeline</h2>
+          <p class="section-desc">การเดินทางของดนตรีตลอดหลายพันปี</p>
+        </div>
+        <div class="timeline">
+
+          <div class="timeline-item reveal" data-side="left">
+            <div class="timeline-dot"><i class="fas fa-drum"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">ก่อน ค.ศ. 3000</span>
+              <h3>ยุคดึกดำบรรพ์</h3>
+              <p>มนุษย์เริ่มใช้เสียงและจังหวะในพิธีกรรม กลองและขลุ่ยกระดูกถือเป็นเครื่องดนตรียุคแรกของมวลมนุษย์ชาติ</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" data-side="right">
+            <div class="timeline-dot"><i class="fas fa-scroll"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">ค.ศ. 400–1400</span>
+              <h3>ยุคกลาง (Medieval)</h3>
+              <p>เพลงสวดแบบ Gregorian Chant ครองโบสถ์คริสต์ ดนตรีถูกใช้เพื่อบูชาพระเจ้า ไม่ใช่เพื่อความบันเทิง</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" data-side="left">
+            <div class="timeline-dot"><i class="fas fa-music"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">ค.ศ. 1600–1750</span>
+              <h3>ยุคบาโรก (Baroque)</h3>
+              <p>Bach, Handel, Vivaldi สร้างผลงานอมตะ ดนตรีออร์เคสตราเกิดขึ้น โอเปร่าเป็นที่นิยม</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" data-side="right">
+            <div class="timeline-dot"><i class="fas fa-guitar"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">ค.ศ. 1750–1820</span>
+              <h3>ยุคคลาสสิก (Classical)</h3>
+              <p>Mozart, Beethoven, Haydn ปฏิวัติโครงสร้างดนตรี Symphony และ Sonata กลายเป็นมาตรฐาน</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" data-side="left">
+            <div class="timeline-dot"><i class="fas fa-microphone"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">ค.ศ. 1900–1960</span>
+              <h3>ยุค Jazz & Blues</h3>
+              <p>จากรากเหง้าแอฟริกัน-อเมริกัน Jazz และ Blues บุกเบิกจังหวะที่เสรี ก่อกำเนิด Rock 'n' Roll</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" data-side="right">
+            <div class="timeline-dot"><i class="fas fa-compact-disc"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">ค.ศ. 1960–1990</span>
+              <h3>Rock & Pop Revolution</h3>
+              <p>The Beatles, Michael Jackson, Madonna เปลี่ยนโลกดนตรี MTV ทำให้ดนตรีมีมิติภาพเพิ่มขึ้น</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" data-side="left">
+            <div class="timeline-dot"><i class="fas fa-headphones"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">ค.ศ. 1990–2010</span>
+              <h3>ยุค Hip-Hop & Digital</h3>
+              <p>Tupac, Eminem, Jay-Z ผลักดัน Hip-Hop สู่กระแสหลัก MP3 และ iTunes เปลี่ยนการบริโภคดนตรีตลอดกาล</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" data-side="right">
+            <div class="timeline-dot"><i class="fas fa-robot"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">ค.ศ. 2010–ปัจจุบัน</span>
+              <h3>ยุค Streaming & AI</h3>
+              <p>Spotify, AI Music, Spatial Audio ทำให้ดนตรีไร้ขีดจำกัด ศิลปิน K-Pop และ Global Pop ข้ามพรมแดนทางวัฒนธรรม</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ARTISTS ===== -->
+    <section id="artists" class="section artists-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fas fa-star"></i> ศิลปินตลอดกาล</span>
+          <h2 class="section-title">Legendary Artists</h2>
+          <p class="section-desc">ศิลปินผู้เปลี่ยนโลกดนตรีตลอดกาล</p>
+        </div>
+        <div class="artists-grid">
+
+          <div class="artist-card reveal">
+            <div class="artist-avatar" style="background: linear-gradient(135deg,#6c3483,#2e86c1)">
+              <i class="fas fa-music fa-2x"></i>
+            </div>
+            <div class="artist-info">
+              <h3>Ludwig van Beethoven</h3>
+              <span class="artist-era">Classical / 1770–1827</span>
+              <p>นักแต่งเพลงที่ยิ่งใหญ่ที่สุดในประวัติศาสตร์ สร้างผลงานอมตะแม้จะสูญเสียการได้ยิน</p>
+              <div class="artist-genres">
+                <span>Classical</span>
+                <span>Romantic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="artist-card reveal">
+            <div class="artist-avatar" style="background: linear-gradient(135deg,#c0392b,#8e44ad)">
+              <i class="fas fa-guitar fa-2x"></i>
+            </div>
+            <div class="artist-info">
+              <h3>The Beatles</h3>
+              <span class="artist-era">Rock & Pop / 1960s–1970s</span>
+              <p>วง Rock ที่มีอิทธิพลสูงสุดในศตวรรษที่ 20 บุกเบิกทุกรูปแบบตั้งแต่ Pop ถึง Psychedelic</p>
+              <div class="artist-genres">
+                <span>Rock</span>
+                <span>Pop</span>
+                <span>Psychedelic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="artist-card reveal">
+            <div class="artist-avatar" style="background: linear-gradient(135deg,#117a65,#1a5276)">
+              <i class="fas fa-microphone fa-2x"></i>
+            </div>
+            <div class="artist-info">
+              <h3>Michael Jackson</h3>
+              <span class="artist-era">Pop / 1958–2009</span>
+              <p>"King of Pop" ผู้ปฏิวัติการแสดงบนเวที ดนตรีวิดีโอ และวัฒนธรรมดนตรีป๊อปโลก</p>
+              <div class="artist-genres">
+                <span>Pop</span>
+                <span>R&B</span>
+                <span>Funk</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="artist-card reveal">
+            <div class="artist-avatar" style="background: linear-gradient(135deg,#d35400,#7d3c98)">
+              <i class="fas fa-headphones fa-2x"></i>
+            </div>
+            <div class="artist-info">
+              <h3>Kendrick Lamar</h3>
+              <span class="artist-era">Hip-Hop / 1987–ปัจจุบัน</span>
+              <p>กวีแห่ง Hip-Hop ยุคใหม่ รางวัล Pulitzer Prize ผู้ยกระดับดนตรี Rap เป็นศิลปะชั้นสูง</p>
+              <div class="artist-genres">
+                <span>Hip-Hop</span>
+                <span>Rap</span>
+                <span>Jazz</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="artist-card reveal">
+            <div class="artist-avatar" style="background: linear-gradient(135deg,#1abc9c,#2980b9)">
+              <i class="fas fa-compact-disc fa-2x"></i>
+            </div>
+            <div class="artist-info">
+              <h3>David Bowie</h3>
+              <span class="artist-era">Rock / 1947–2016</span>
+              <p>ศิลปินที่เปลี่ยนรูปร่างตัวตนตลอดกาล Ziggy Stardust สู่ Thin White Duke</p>
+              <div class="artist-genres">
+                <span>Glam Rock</span>
+                <span>Art Rock</span>
+                <span>New Wave</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="artist-card reveal">
+            <div class="artist-avatar" style="background: linear-gradient(135deg,#e74c3c,#f39c12)">
+              <i class="fas fa-record-vinyl fa-2x"></i>
+            </div>
+            <div class="artist-info">
+              <h3>Daft Punk</h3>
+              <span class="artist-era">Electronic / 1993–2021</span>
+              <p>ดูโอ French ผู้สร้างยุค Electronic Dance Music และ House Music ที่ครองโลก</p>
+              <div class="artist-genres">
+                <span>Electronic</span>
+                <span>House</span>
+                <span>Funk</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fas fa-images"></i> แกลเลอรี่ดนตรี</span>
+          <h2 class="section-title">Music Gallery</h2>
+          <p class="section-desc">คลิกที่ภาพเพื่อดูรายละเอียด</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item reveal" data-title="เปียโน — เสียงสะท้อนแห่งจิตวิญญาณ" data-desc="เปียโนถูกประดิษฐ์ขึ้นในต้นศตวรรษที่ 18 โดย Bartolomeo Cristofori กลายเป็นเครื่องดนตรีที่ครองห้องรับแขกทั่วโลก และเป็นพื้นฐานของดนตรีคลาสสิกสมัยใหม่">
+            <div class="gallery-img piano-img">
+              <i class="fas fa-music fa-4x"></i>
+              <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <p>เปียโน</p>
+          </div>
+          <div class="gallery-item reveal" data-title="กีตาร์ไฟฟ้า — เสียงแห่งการปฏิวัติ" data-desc="กีตาร์ไฟฟ้าถือกำเนิดในทศวรรษ 1930 แต่ระเบิดพลังในยุค Rock 'n' Roll เสียง distortion และ overdrive ที่เป็นเอกลักษณ์กลายเป็นสัญลักษณ์แห่งการต่อต้านและอิสรภาพ">
+            <div class="gallery-img guitar-img">
+              <i class="fas fa-guitar fa-4x"></i>
+              <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <p>กีตาร์ไฟฟ้า</p>
+          </div>
+          <div class="gallery-item reveal" data-title="กลองชุด — หัวใจของวงดนตรี" data-desc="กลองชุดสมัยใหม่วิวัฒนาการจากกลองมือของชนเผ่า สู่ชุดกลองออร์เคสตรา จนถึงกลองชุดอิเล็กทรอนิกส์ในยุคปัจจุบัน เป็นรากฐานจังหวะที่ขาดไม่ได้ในทุกแนวดนตรี">
+            <div class="gallery-img drums-img">
+              <i class="fas fa-drum fa-4x"></i>
+              <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <p>กลอง</p>
+          </div>
+          <div class="gallery-item reveal" data-title="ไวโอลิน — เสียงเพรียกแห่งอารมณ์" data-desc="ไวโอลินถูกพัฒนาในอิตาลีช่วงศตวรรษที่ 16 เป็นราชินีแห่งวงออร์เคสตรา เสียงอันนุ่มนวลแต่ทรงพลังสามารถถ่ายทอดอารมณ์ได้อย่างไม่มีเครื่องดนตรีใดเทียบ">
+            <div class="gallery-img violin-img">
+              <i class="fas fa-violin fa-4x" style="font-family:'Font Awesome 6 Free'"></i>
+              <i class="fas fa-music fa-4x"></i>
+              <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <p>ไวโอลิน</p>
+          </div>
+          <div class="gallery-item reveal" data-title="DJ Turntable — ศิลปะแห่งเสียง" data-desc="Turntable เกิดขึ้นในทศวรรษ 1970 ในวัฒนธรรม Hip-Hop DJ Kool Herc ค้นพบเทคนิค breakbeat ที่กลายเป็นรากฐานของ Hip-Hop, Electronic และ Dance Music สมัยใหม่">
+            <div class="gallery-img dj-img">
+              <i class="fas fa-record-vinyl fa-4x"></i>
+              <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <p>Turntable</p>
+          </div>
+          <div class="gallery-item reveal" data-title="ซินธิไซเซอร์ — เสียงแห่งอนาคต" data-desc="Synthesizer ปฏิวัติดนตรีในทศวรรษ 1960-70 สร้างเสียงที่ไม่เคยมีในธรรมชาติ เป็นแกนหลักของ Electronic, Synth-Pop, Ambient และดนตรีภาพยนตร์ฮอลลีวูด">
+            <div class="gallery-img synth-img">
+              <i class="fas fa-wave-square fa-4x"></i>
+              <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <p>Synthesizer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fas fa-envelope"></i> ติดต่อเรา</span>
+          <h2 class="section-title">Contact Us</h2>
+          <p class="section-desc">มีคำถามหรือต้องการร่วมงานกับนิทรรศการ? ติดต่อเราได้เลย</p>
+        </div>
+        <div class="contact-wrapper reveal">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>ที่อยู่</h4>
+                <p>คณะดนตรีและนิเทศศิลป์<br />มหาวิทยาลัยเชิงสร้างสรรค์</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>อีเมล</h4>
+                <p>evomusic@university.ac.th</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>โทรศัพท์</h4>
+                <p>02-123-4567</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-btn"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-spotify"></i></a>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">ชื่อ-นามสกุล</label>
+              <input type="text" id="name" placeholder="กรอกชื่อของคุณ" required />
+            </div>
+            <div class="form-group">
+              <label for="email">อีเมล</label>
+              <input type="email" id="email" placeholder="example@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">ข้อความ</label>
+              <textarea id="message" rows="5" placeholder="เขียนข้อความของคุณที่นี่..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> ส่งข้อความ
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo"><i class="fas fa-music"></i><span>EvoMusic</span></div>
+          <p>นิทรรศการดนตรีเชิงสร้างสรรค์<br />สำรวจรากเหง้าและอนาคตของดนตรีโลก</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#artists">Artists</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <h4>ข้อมูลนิทรรศการ</h4>
+          <p>จัดทำโดยนักศึกษาสาขาวิชา<br />การออกแบบสื่อดิจิทัล</p>
+          <p style="margin-top:0.5rem">ปีการศึกษา 2567</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2567 The Evolution of Music Exhibition. สงวนลิขสิทธิ์ทุกประการ</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== GALLERY MODAL ===== -->
+  <div class="modal" id="gallery-modal">
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close"><i class="fas fa-times"></i></button>
+      <div class="modal-icon" id="modal-icon"></div>
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <!-- ===== SCROLL TO TOP ===== -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast"><i class="fas fa-check-circle"></i> <span id="toast-msg"></span></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
